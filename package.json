@@ -1,0 +1,21 @@
+{
+  "name": "nodejswrapper",
+  "version": "1.0.0",
+  "description": "Api for frontend to connect with Unsplash ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Iskak Akhan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2",
+    "iisexpress-proxy": "^1.5.3",
+    "node-fetch": "^2.6.1",
+    "unsplash-js": "^6.3.0"
+  }
+}
